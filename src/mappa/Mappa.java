@@ -20,7 +20,7 @@ public interface Mappa {
 	
 	public int getRisDadi();
 	
-	public boolean giocatoreBloccato(int g);
+	public boolean giocatoreBloccato(int k);
 	
 	public void restart();
 	
