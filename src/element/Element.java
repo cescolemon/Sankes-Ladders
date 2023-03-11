@@ -2,7 +2,7 @@ package element;
 
 import java.util.Set;
 
-public interface Element {
+public interface Element { //elemento di base
 	
 	int azione(Giocatore g, StringBuilder sb);
 	

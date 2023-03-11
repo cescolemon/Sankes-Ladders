@@ -12,7 +12,7 @@ import element.Scale;
 import element.Serpenti;
 import mappa.HashMappa;
 
-public class ConcreteCreator extends Creator {
+public class ConcreteCreator extends Creator { //design pattern
 	
 	private void createSerpenti(int[]... s) {
 		for(int[] a : s) {

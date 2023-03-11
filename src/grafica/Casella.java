@@ -51,7 +51,7 @@ public class Casella extends JPanel {
 	}
 	
 	
-	public void addGiocatore(int i) {
+	public void addGiocatore(int i) { //aggiunge n giocatori
 		giocatori[i].setVisible(true);
 		giocatore.revalidate();
 	}
@@ -61,7 +61,7 @@ public class Casella extends JPanel {
 		giocatore.revalidate();
 	}
 	
-	public void addElement(String txt) {
+	public void addElement(String txt) { //aggiunge un elemento da una stringa
 		JLabel nome= new JLabel(txt);
 		nome.setFont(new Font("Mono",Font.BOLD,10));
 		element.add(nome);
