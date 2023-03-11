@@ -9,7 +9,7 @@ public enum CasellaCarte implements Element {
 	private int pos;
 
 	@Override
-	public int azione(Giocatore g, StringBuilder sb) {
+	public int azione(Giocatore g, StringBuilder sb) { //azioni di gioco
 		Carte c= Deck.INSTANCE.prendiCarta();
 		sb.append("Il giocatore pesca una carta: "+c+'\n');
 		switch (c) {

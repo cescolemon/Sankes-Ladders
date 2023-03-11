@@ -19,7 +19,7 @@ public class Casella extends JPanel {
 	private int cardinal;
 	
 	
-	public Casella(int nGiocatori) {
+	public Casella(int nGiocatori) { //grafica singola casella
 		super();
 		this.setSize(10, 10);
 		this.setBorder(new MatteBorder(2, 2, 2, 2, (Color) new Color(0, 0, 0)));

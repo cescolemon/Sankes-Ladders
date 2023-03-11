@@ -16,11 +16,11 @@ public interface Mappa {
 	
 	public String giocaUnaPartita();
 	
-	public int getPosGiocatore(int g);
+	public int getPosGiocatore(int g); //posizione giocatore g
 	
-	public int getRisDadi();
+	public int getRisDadi(); //risultato dadi
 	
-	public boolean giocatoreBloccato(int k);
+	public boolean giocatoreBloccato(int k); 
 	
 	public void restart();
 	
@@ -36,7 +36,7 @@ public interface Mappa {
 	
 	public int getActGiocatore();
 	
-	public boolean doppioSei();
+	public boolean doppioSei(); //se attivo TRUE
 	
 	public StatoMappa save();
 	
