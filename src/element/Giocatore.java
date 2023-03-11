@@ -27,7 +27,7 @@ public class Giocatore implements Serializable{
 		roundsToWait=0;
 	}
 	
-	public int lancioDadi() {
+	public int lancioDadi() { //Azione
 		int ret=Dadi.INSTANCE.lancioDadi(this);
 		this.setLastScore(ret);
 		return ret;
